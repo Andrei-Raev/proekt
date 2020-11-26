@@ -1,0 +1,203 @@
+#centralwidget {
+    background-color: #E3E3E3;
+}
+
+.QPushButton {
+    font-family: "Comic Sans MS";
+    border: 3px solid #9D9D9D;
+    border-radius: 5px;
+    color: #343434;
+    background-color: #AFAFAF;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.QPushButton:hover {
+    border: 3px solid #9B3C29;
+    border-radius: 5px;
+    background-color: #C24B34;
+    font-size: 20px;
+    padding: 5px;
+
+
+}
+
+BeautifulButton {
+    cursor: pointer;
+    padding: 15px 5px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background: #3da35a;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(56, 100, 38);
+    transition: all 1s;
+}
+
+.QGroupBox {
+    color: #343434;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+
+.QLineEdit {
+    color: #343434;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+    background-color: #E3E3E3;
+    border: 2px solid #9D9D9D;
+    border-radius: 5px;
+    selection-background-color: #9B3C29;
+    selection-color: #E3E3E3;
+}
+
+
+.QRadioButton {
+    color: #343434;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+
+.QRadioButton::indicator::unchecked {
+    color: cyan;
+}
+
+.QRadioButton::indicator:unchecked:hover {
+    image: url(radio-on-button.svg);
+}
+
+.QRadioButton::indicator:unchecked:pressed {
+    image: url(1.png);
+}
+
+.QRadioButton::indicator::checked {
+    color: #9F8918;
+}
+
+.QRadioButton::indicator:checked:hover {
+    color: #9B3C29;
+}
+
+.QRadioButton::indicator:checked:pressed {
+    color: greenyellow;
+}
+
+.QLabel {
+    color: #343434;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+
+.QProgressBar {
+    border: 3px solid #ABABAC;
+    border-radius: 5px;
+    background-color: #E3E3E3;
+}
+
+.QProgressBar::chunk {
+    border: 2px solid #9F8918;
+    border-radius: 3px;
+    background-color: #F8D526;
+    width: 4px;
+    margin: 1px;
+}
+
+.QGroupBox {
+    border-radius: 5px;
+    border: 2px solid #9E9E9E;
+    margin-top: 5px;
+    margin-right: 1px;
+    padding: 10px;
+}
+
+.QGroupBox:title {
+    color: #535353;
+    font-size: 15px;
+    bottom: 17px;
+    left: 18px;
+    margin: 5px;
+}
+
+.QComboBox {
+    color: #343434;
+    background-color: #E3E3E3;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #9E9E9E;
+    font-family: "Comic Sans MS";
+}
+
+.QComboBox QAbstractItemView {
+    border: 2px solid #9E9E9E;
+    selection-color: #E3E3E3;
+    color: #343434;
+    selection-background-color: #9B3C29;
+}
+
+.QComboBox:editable {
+    background: #E3E3E3;
+}
+
+.QComboBox:on {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*QTabWidget*/
+
+QTabWidget::pane {
+    border: 3px solid #9E9E9E;
+    border-radius: 10px;
+    background-color: #E3E3E3;
+}
+
+QTabWidget::tab-bar {
+    alignment: center;
+
+}
+
+/* background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3); */
+.QTabBar::tab {
+    top: 3px;
+    border: 2px solid #9E9E9E;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 7px;
+    color: #343434;
+    font-size: 20px;
+    min-width: 150px;
+    font-family: "Comic Sans MS";
+}
+
+.QTabBar::tab:selected, QTabBar::tab:hover {
+    color: #9B3C29;
+}
+
+.QTabBar::tab:selected {
+    background-color: #F0F0F0;
+}
+
+.QTabBar::tab:! selected {
+    top: 1px;
+}
+
+
+/*
+.QSpinBox:down-button {
+    overflow: hidden;
+}*/
